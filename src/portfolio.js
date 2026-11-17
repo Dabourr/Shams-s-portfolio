@@ -55,9 +55,11 @@ export const services = [
     description: 'Content calendars, social strategy, campaign reporting, and audience engagement.',
   },
   {
-    title: 'Content creation & copywriting',
-    description: 'Reels, posts, stories, and scripts that reflect each brand’s identity.',
+    title: 'Content creation',
+    description: 'Reels, posts, and stories that reflect each brand’s identity.',
   },
 ]
 
+// The site introduces Shams through its own About section.
 export const portfolioPages = Array.from({ length: 20 }, (_, index) => index + 1)
+  .filter((page) => page !== 2)

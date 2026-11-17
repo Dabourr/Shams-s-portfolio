@@ -171,8 +171,8 @@ function App() {
             <h2 id="about-title">From content ideas to campaigns.</h2>
           </div>
           <div className="about-body">
-            <p>I’m Shams Khaled. I bring ideas to life through storytelling and strategy, with work that spans paid ads, social media, and copywriting.</p>
-            <p>I take content from brainstorming and writing through visuals and campaign planning, then use the results to guide what comes next.</p>
+            <p>I’m Shams Khaled. I bring ideas to life through storytelling and strategy, with work that spans paid ads and social media.</p>
+            <p>I take content from brainstorming through visual development and campaign planning, then use the results to guide what comes next.</p>
           </div>
         </section>
 
@@ -193,8 +193,8 @@ function App() {
         <section id="work" className="section work" aria-labelledby="work-title">
           <div className="section-heading">
             <h2 id="work-title">My projects</h2>
-            <button className="text-link" type="button" onClick={() => openGallery('Original portfolio', portfolioPages)}>
-              View original portfolio <span aria-hidden="true">↗</span>
+            <button className="text-link" type="button" onClick={() => openGallery('Portfolio slides', portfolioPages)}>
+              View portfolio slides <span aria-hidden="true">↗</span>
             </button>
           </div>
           <div className="project-grid">
